@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://mahdi-4343.github.io/Portfolio/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mahdi-4343.github.io/Portfolio/" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://mahdi-4343.github.io/Portfolio/index-fa.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mahdi-4343.github.io/Portfolio/" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2026-07-22</lastmod>
+  </url>
+  <url>
+    <loc>https://mahdi-4343.github.io/Portfolio/index-fa.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mahdi-4343.github.io/Portfolio/" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://mahdi-4343.github.io/Portfolio/index-fa.html" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mahdi-4343.github.io/Portfolio/" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2026-07-22</lastmod>
+  </url>
+  <url>
+    <loc>https://mahdi-4343.github.io/Portfolio/Profile-card/index1.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mahdi-4343.github.io/Portfolio/Profile-card/index1.html" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://mahdi-4343.github.io/Portfolio/Profile-card/index1-fa.html" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-07-22</lastmod>
+  </url>
+  <url>
+    <loc>https://mahdi-4343.github.io/Portfolio/Profile-card/index1-fa.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mahdi-4343.github.io/Portfolio/Profile-card/index1.html" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://mahdi-4343.github.io/Portfolio/Profile-card/index1-fa.html" />
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-07-22</lastmod>
+  </url>
+  <url>
+    <loc>https://mahdi-4343.github.io/Portfolio/projects/concrete-structures.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mahdi-4343.github.io/Portfolio/projects/concrete-structures.html" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://mahdi-4343.github.io/Portfolio/projects/concrete-structures-fa.html" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-07-22</lastmod>
+  </url>
+  <url>
+    <loc>https://mahdi-4343.github.io/Portfolio/projects/concrete-structures-fa.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mahdi-4343.github.io/Portfolio/projects/concrete-structures.html" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://mahdi-4343.github.io/Portfolio/projects/concrete-structures-fa.html" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-07-22</lastmod>
+  </url>
+  <url>
+    <loc>https://mahdi-4343.github.io/Portfolio/projects/data-analysis.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mahdi-4343.github.io/Portfolio/projects/data-analysis.html" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://mahdi-4343.github.io/Portfolio/projects/data-analysis-fa.html" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-07-22</lastmod>
+  </url>
+  <url>
+    <loc>https://mahdi-4343.github.io/Portfolio/projects/data-analysis-fa.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mahdi-4343.github.io/Portfolio/projects/data-analysis.html" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://mahdi-4343.github.io/Portfolio/projects/data-analysis-fa.html" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-07-22</lastmod>
+  </url>
+  <url>
+    <loc>https://mahdi-4343.github.io/Portfolio/projects/etabs-course.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mahdi-4343.github.io/Portfolio/projects/etabs-course.html" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://mahdi-4343.github.io/Portfolio/projects/etabs-course-fa.html" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-07-22</lastmod>
+  </url>
+  <url>
+    <loc>https://mahdi-4343.github.io/Portfolio/projects/etabs-course-fa.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mahdi-4343.github.io/Portfolio/projects/etabs-course.html" />
+    <xhtml:link rel="alternate" hreflang="fa" href="https://mahdi-4343.github.io/Portfolio/projects/etabs-course-fa.html" />
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2026-07-22</lastmod>
+  </url>
+</urlset>

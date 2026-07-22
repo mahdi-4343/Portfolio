@@ -1,0 +1,125 @@
+/* Base design system — shared with English version */
+@import url("./Style.css");
+
+/* ─── RTL & Persian typography ─── */
+:root {
+  --font-sans: "Vazirmatn", system-ui, sans-serif;
+  --font-display: "Vazirmatn", system-ui, sans-serif;
+}
+
+html {
+  direction: rtl;
+}
+
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-sans);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-sans);
+  letter-spacing: 0;
+}
+
+h1 small,
+h2 small {
+  letter-spacing: 0.06em;
+}
+
+/* Hero: portrait on the right in RTL */
+.hero {
+  grid-template-columns: 0.9fr 1.1fr;
+}
+
+.hero-stats .stat strong {
+  font-family: var(--font-sans);
+}
+
+.button:hover .btn-arrow {
+  transform: translateX(-4px);
+}
+
+/* Skills: about text first in DOM → right column in RTL */
+.skills .holder-blue {
+  grid-template-columns: 1.4fr 1fr;
+}
+
+.skills .right-column {
+  order: 0;
+}
+
+.skills .left-column {
+  order: 0;
+}
+
+/* Marquee stays LTR so auto-scroll never breaks in Persian */
+.marquee,
+.marquee .track {
+  direction: ltr;
+}
+
+.marquee-fade--left {
+  left: 0;
+  right: auto;
+  background: linear-gradient(90deg, var(--surface-elevated), transparent);
+}
+
+.marquee-fade--right {
+  right: 0;
+  left: auto;
+  background: linear-gradient(270deg, var(--surface-elevated), transparent);
+}
+
+.project-content,
+.project-overlay,
+.job-card,
+.job-body {
+  text-align: right;
+}
+
+.theme-switch-wrapper {
+  margin-right: 0;
+  margin-left: 8px;
+}
+
+html[dir="rtl"] .site-header > .logo-holder,
+html[dir="rtl"] header > .logo-holder {
+  justify-self: start;
+}
+
+html[dir="rtl"] .header-actions {
+  justify-self: end;
+}
+
+html[dir="rtl"] .cta-banner-copy h2,
+html[dir="rtl"] .section-intro {
+  text-align: center;
+}
+
+html[dir="rtl"] .back-to-top {
+  right: auto;
+  left: 24px;
+}
+
+html[dir="rtl"] .card-link span {
+  display: inline-block;
+}
+
+/* Mobile RTL adjustments */
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .skills .holder-blue {
+    grid-template-columns: 1fr;
+  }
+
+  html[dir="rtl"] .back-to-top {
+    left: 16px;
+  }
+}

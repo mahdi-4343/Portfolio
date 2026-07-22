@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSI ETABS Course | Mahdi Hesari</title>
+    <meta
+      name="description"
+      content="Educational course on advanced structural modeling techniques using CSI ETABS — created by Mahdi Hesari."
+    />
+    <meta name="author" content="Mahdi Hesari" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0ea5e9" />
+    <link
+      rel="canonical"
+      href="https://mahdi-4343.github.io/Portfolio/projects/etabs-course.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="en"
+      href="https://mahdi-4343.github.io/Portfolio/projects/etabs-course.html"
+    />
+    <link
+      rel="alternate"
+      hreflang="fa"
+      href="https://mahdi-4343.github.io/Portfolio/projects/etabs-course-fa.html"
+    />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="CSI ETABS Course | Mahdi Hesari" />
+    <meta
+      property="og:description"
+      content="Advanced structural modeling course using CSI ETABS."
+    />
+    <meta
+      property="og:url"
+      content="https://mahdi-4343.github.io/Portfolio/projects/etabs-course.html"
+    />
+    <meta
+      property="og:image"
+      content="https://mahdi-4343.github.io/Portfolio/Images/Project/CSI.png"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/png" href="../Images/Mahdi.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../Style.css" />
+    <script src="../Scripts.js"></script>
+    <script src="../theme.js"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Course",
+        "name": "CSI ETABS Course",
+        "description": "Comprehensive educational course on advanced structural modeling techniques using CSI ETABS.",
+        "url": "https://mahdi-4343.github.io/Portfolio/projects/etabs-course.html",
+        "provider": {
+          "@type": "Person",
+          "name": "Mahdi Hesari"
+        },
+        "inLanguage": "en"
+      }
+    </script>
+    <style>
+      .project-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .project-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        flex-wrap: wrap;
+      }
+
+      .project-image {
+        width: 300px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 10px;
+        margin-right: 30px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .project-title {
+        flex: 1;
+      }
+
+      .project-title h1 {
+        margin-bottom: 10px;
+        color: var(--text-color);
+      }
+
+      .project-meta {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 15px;
+        margin-bottom: 20px;
+      }
+
+      .meta-item {
+        background-color: var(--base-100);
+        padding: 8px 15px;
+        border-radius: 20px;
+        font-size: 14px;
+        color: var(--text-color);
+      }
+
+      .progress-bar {
+        width: 100%;
+        height: 20px;
+        background-color: var(--base-100);
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 30px;
+      }
+
+      .progress-fill {
+        height: 100%;
+        background-color: var(--blue);
+        width: 20%;
+        border-radius: 10px;
+        transition: width 0.5s ease;
+      }
+
+      .project-content {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        gap: 30px;
+      }
+
+      .content-section {
+        margin-bottom: 40px;
+      }
+
+      .content-section h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+        color: var(--text-color);
+        border-bottom: 2px solid var(--blue);
+        padding-bottom: 10px;
+      }
+
+      .content-section p {
+        margin-bottom: 15px;
+        line-height: 1.6;
+      }
+
+      .content-section ul {
+        margin-bottom: 20px;
+        padding-left: 20px;
+      }
+
+      .content-section li {
+        margin-bottom: 10px;
+      }
+
+      .table-of-contents {
+        background-color: var(--base-100);
+        padding: 20px;
+        border-radius: 10px;
+        position: sticky;
+        top: 100px;
+        max-height: calc(100vh - 150px);
+        overflow-y: auto;
+      }
+
+      .table-of-contents h3 {
+        margin-bottom: 15px;
+        color: var(--text-color);
+      }
+
+      .table-of-contents ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .table-of-contents li {
+        margin-bottom: 10px;
+      }
+
+      .table-of-contents a {
+        color: var(--text-color);
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+
+      .table-of-contents a:hover {
+        color: var(--blue);
+      }
+
+      .back-to-top {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 50px;
+        height: 50px;
+        background-color: var(--blue);
+        color: white;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+        z-index: 1000;
+      }
+
+      .back-to-top.visible {
+        opacity: 1;
+        visibility: visible;
+      }
+
+      .back-to-top:hover {
+        background-color: var(--blue-800);
+        transform: translateY(-5px);
+      }
+
+      .module-card {
+        background-color: var(--base-100);
+        border-radius: 10px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+
+      .module-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+      }
+
+      .module-card h3 {
+        color: var(--blue);
+        margin-bottom: 10px;
+      }
+
+      .module-card p {
+        margin-bottom: 15px;
+      }
+
+      .module-card ul {
+        margin-bottom: 0;
+      }
+
+      @media (max-width: 768px) {
+        .project-header {
+          flex-direction: column;
+          align-items: flex-start;
+        }
+
+        .project-image {
+          width: 100%;
+          height: 250px;
+          margin-right: 0;
+          margin-bottom: 20px;
+        }
+
+        .project-content {
+          grid-template-columns: 1fr;
+        }
+
+        .table-of-contents {
+          position: static;
+          margin-bottom: 30px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="../index.html" class="logo-holder">
+        <div class="logo">M</div>
+        <div class="logo-text">An Engineer</div>
+      </a>
+      <nav>
+        <ul id="menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../index.html#skills">Skills</a></li>
+          <li><a href="../index.html#ongoing-projects">Ongoing Projects</a></li>
+          <li><a href="../index.html#Projects">Projects</a></li>
+          <li>
+            <a href="../Profile-card/index1.html" class="button">Contact Me</a>
+          </li>
+          <li><a href="../index-fa.html">فارسی</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <div class="theme-switch-wrapper">
+          <label class="theme-switch">
+            <input type="checkbox" onchange="toggleTheme()" />
+            <div class="theme-icon sun-icon">☀️</div>
+            <div class="theme-icon moon-icon">🌙</div>
+          </label>
+        </div>
+        <a href="#" class="mobile-toggle" onclick="toggleMoblieMenu();">
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="2"
+              d="M5 7h14M5 12h14M5 17h10"
+            ></path>
+          </svg>
+        </a>
+      </div>
+    </header>
+
+    <main>
+      <div class="project-container">
+        <div class="project-header">
+          <img
+            src="../Images/Project/CSI.png"
+            alt="CSI ETABS Course"
+            class="project-image"
+          />
+          <div class="project-title">
+            <h1>CSI ETABS Course</h1>
+            <div class="project-meta">
+              <span class="meta-item">Started: October 2024</span>
+              <span class="meta-item">Expected completion: June 2025</span>
+              <span class="meta-item">Type: Educational Course</span>
+              <span class="meta-item">Level: Advanced</span>
+            </div>
+            <div class="progress-bar">
+              <div class="progress-fill"></div>
+            </div>
+            <p>
+              Creating a comprehensive educational course on advanced structural
+              modeling techniques using CSI ETABS software.
+            </p>
+          </div>
+        </div>
+
+        <div class="project-content">
+          <div class="main-content">
+            <div class="content-section" id="overview">
+              <h2>Project Overview</h2>
+              <p>
+                This project involves developing a comprehensive educational
+                course focused on advanced structural modeling techniques using
+                CSI ETABS software. The course is designed for structural
+                engineers who want to enhance their skills in using ETABS for
+                complex structural analysis and design projects.
+              </p>
+              <p>
+                The course will cover a wide range of topics, from basic
+                concepts to advanced modeling techniques, with a focus on
+                practical applications and real-world examples. It will include
+                video tutorials, hands-on exercises, and case studies to provide
+                a thorough understanding of the software's capabilities and best
+                practices.
+              </p>
+            </div>
+
+            <div class="content-section" id="course-modules">
+              <h2>Course Modules</h2>
+
+              <div class="module-card">
+                <h3>Module 1: Introduction to ETABS</h3>
+                <p>
+                  An overview of the ETABS interface, basic concepts, and
+                  fundamental modeling techniques.
+                </p>
+                <ul>
+                  <li>Understanding the ETABS interface and workflow</li>
+                  <li>Creating basic structural models</li>
+                  <li>Defining materials and section properties</li>
+                  <li>Applying loads and load combinations</li>
+                  <li>Running basic analyses</li>
+                </ul>
+              </div>
+
+              <div class="module-card">
+                <h3>Module 2: Advanced Modeling Techniques</h3>
+                <p>
+                  Advanced techniques for creating complex structural models
+                  efficiently.
+                </p>
+                <ul>
+                  <li>Using templates and macros for efficient modeling</li>
+                  <li>Advanced geometry creation tools</li>
+                  <li>Modeling complex structural elements</li>
+                  <li>Working with imported geometry</li>
+                  <li>Optimizing model size and performance</li>
+                </ul>
+              </div>
+
+              <div class="module-card">
+                <h3>Module 3: Analysis and Design</h3>
+                <p>
+                  Comprehensive coverage of analysis types and design procedures
+                  in ETABS.
+                </p>
+                <ul>
+                  <li>Linear and nonlinear static analysis</li>
+                  <li>
+                    Dynamic analysis (modal, response spectrum, time history)
+                  </li>
+                  <li>Seismic analysis and design</li>
+                  <li>Concrete design according to various codes</li>
+                  <li>Steel design and optimization</li>
+                </ul>
+              </div>
+
+              <div class="module-card">
+                <h3>Module 4: Results Interpretation and Reporting</h3>
+                <p>
+                  Understanding and effectively presenting analysis results.
+                </p>
+                <ul>
+                  <li>Interpreting analysis results</li>
+                  <li>Creating detailed reports</li>
+                  <li>Visualizing results with advanced graphics</li>
+                  <li>Exporting data to other software</li>
+                  <li>Best practices for documentation</li>
+                </ul>
+              </div>
+
+              <div class="module-card">
+                <h3>Module 5: Advanced Applications and Case Studies</h3>
+                <p>Real-world applications and complex case studies.</p>
+                <ul>
+                  <li>High-rise building analysis</li>
+                  <li>Complex bridge structures</li>
+                  <li>Industrial facilities</li>
+                  <li>Retrofit and rehabilitation projects</li>
+                  <li>Troubleshooting common issues</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="content-section" id="course-content">
+              <h2>Course Content</h2>
+              <p>
+                The course will be delivered through a combination of video
+                lectures, written materials, and hands-on exercises. Each module
+                includes:
+              </p>
+              <ul>
+                <li>Video tutorials with step-by-step instructions</li>
+                <li>Comprehensive written documentation</li>
+                <li>Practice exercises and assignments</li>
+                <li>Model files for hands-on practice</li>
+                <li>Quizzes to test understanding</li>
+                <li>Case studies based on real projects</li>
+              </ul>
+              <p>
+                Participants will have access to a dedicated online platform
+                where they can access all course materials, submit assignments,
+                and interact with instructors and other participants.
+              </p>
+            </div>
+
+            <div class="content-section" id="progress">
+              <h2>Progress Tracking</h2>
+              <h3>Completed Tasks</h3>
+              <ul>
+                <li>Course outline and structure development</li>
+                <li>Module 1 content creation</li>
+                <li>Basic video recording setup</li>
+              </ul>
+
+              <h3>In Progress</h3>
+              <ul>
+                <li>Module 2 content development</li>
+                <li>Video recording for Module 1</li>
+                <li>Online platform setup</li>
+              </ul>
+
+              <h3>Upcoming Tasks</h3>
+              <ul>
+                <li>Development of Modules 3-5</li>
+                <li>Creation of practice exercises and assignments</li>
+                <li>Recording of video tutorials</li>
+                <li>Development of assessment materials</li>
+                <li>Platform testing and refinement</li>
+                <li>Launch preparation and marketing</li>
+              </ul>
+            </div>
+
+            <div class="content-section" id="tools">
+              <h2>Tools & Resources</h2>
+              <ul>
+                <li>CSI ETABS Software</li>
+                <li>Video recording and editing software</li>
+                <li>Screen capture tools</li>
+                <li>Online learning platform</li>
+                <li>Reference materials and textbooks</li>
+                <li>Sample project files</li>
+                <li>Assessment and quiz creation tools</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="table-of-contents">
+            <h3>Table of Contents</h3>
+            <ul>
+              <li><a href="#overview">Project Overview</a></li>
+              <li><a href="#course-modules">Course Modules</a></li>
+              <li><a href="#course-content">Course Content</a></li>
+              <li><a href="#progress">Progress Tracking</a></li>
+              <li><a href="#tools">Tools & Resources</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="back-to-top" id="backToTop">↑</div>
+
+    <script>
+      // Back to top button functionality
+      const backToTopButton = document.getElementById("backToTop");
+
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > 300) {
+          backToTopButton.classList.add("visible");
+        } else {
+          backToTopButton.classList.remove("visible");
+        }
+      });
+
+      backToTopButton.addEventListener("click", () => {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      });
+
+      // Smooth scrolling for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener("click", function (e) {
+          e.preventDefault();
+
+          const targetId = this.getAttribute("href");
+          const targetElement = document.querySelector(targetId);
+
+          if (targetElement) {
+            window.scrollTo({
+              top: targetElement.offsetTop - 100,
+              behavior: "smooth",
+            });
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /test/
+Disallow: /dashboard.html
+Disallow: /dashboard-fa.html
+Disallow: /ongogin-project.html
+
+Sitemap: https://mahdi-4343.github.io/Portfolio/sitemap.xml

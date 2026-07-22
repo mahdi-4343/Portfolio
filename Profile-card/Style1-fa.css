@@ -1,0 +1,56 @@
+/* Shared profile-card theme with the main portfolio */
+@import url("./Style1.css");
+
+:root {
+  --font-sans: "Vazirmatn", system-ui, sans-serif;
+  --font-display: "Vazirmatn", system-ui, sans-serif;
+}
+
+html,
+body {
+  direction: rtl;
+  text-align: right;
+  font-family: var(--font-sans);
+}
+
+.profile-card,
+.profile-card h1,
+.role,
+.bio,
+.contact-chips,
+.social-row,
+.cta-btn,
+.card-footer {
+  text-align: center;
+}
+
+.back-home {
+  left: auto;
+  right: 20px;
+}
+
+.profile-card h1 {
+  font-family: var(--font-sans);
+  letter-spacing: 0;
+}
+
+.cta-btn:hover span {
+  transform: translateX(-4px);
+}
+
+.cta-btn span {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.status-dot {
+  right: auto;
+  left: 14px;
+}
+
+@media (max-width: 480px) {
+  .back-home {
+    right: 12px;
+    left: auto;
+  }
+}
